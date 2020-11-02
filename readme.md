@@ -11,6 +11,8 @@ Faker is heavily inspired by Perl's [Data::Faker](http://search.cpan.org/~jasonk
 
 Faker requires PHP >= 5.3.3.
 
+This repo removes the person `Callie` so that factory muffin does not interpret the string as a callable. Factory Muffin 2.* looks for the substring `call` to determine if it is a generator string: https://github.com/thephpleague/factory-muffin/tree/2.1#generators. 
+
 **Faker is archived**. Read the reasons behind this decision here: [https://marmelab.com/blog/2020/10/21/sunsetting-faker.html](https://marmelab.com/blog/2020/10/21/sunsetting-faker.html) 
 
 # Table of Contents
